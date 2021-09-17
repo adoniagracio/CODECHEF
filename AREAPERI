@@ -1,0 +1,23 @@
+//ADONIA GRACIO
+#include <stdio.h>
+int main()
+{
+int L;
+int B;
+int Area;
+int Peri;
+scanf("%d\n%d", &L, &B);
+Area = L*B;
+Peri = 2*(L+B);
+  if(Area == Peri){
+  printf("Eq\n%d", Peri);
+}
+else if(Area > Peri){
+  printf("Area\n%d", Area);
+}
+else{
+  printf("Peri\n%d", Peri);
+}
+
+  return 0;
+}
